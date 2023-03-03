@@ -6,15 +6,18 @@
 
 
 #grid-container{
-    max-width: calc(40px * 10);
+    width: 600px;
+    height: 600px;
+    max-height: 1000px;
     display: flex;
     flex-flow: row wrap;
     margin: 0 auto;
 }
 
 .square{
-    width: 40px;
-    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 1px solid black;
 }
 
